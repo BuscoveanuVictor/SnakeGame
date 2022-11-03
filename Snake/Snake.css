@@ -1,0 +1,36 @@
+#canvas{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+    background-color: green;
+}
+
+button{
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+#btn-1,#btn-2,#btn-3{
+    width: 160px;
+    height: 120px; 
+    top : 59%;
+    background-color: red;
+    font: bold 30px Arial red;   
+}
+
+#btn-restartGame,#btn-backToMenu{
+    left:50%;
+    font: bold 35px Arial;
+}
+#btn-restartGame{
+    top:52%;
+}
+#btn-backToMenu{
+    top:60%;
+}
+
+#btn-1:hover ,#btn-2:hover, #btn-3:hover{
+    color:red;
+    background-color: black;
+}
